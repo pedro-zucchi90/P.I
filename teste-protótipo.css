@@ -51,7 +51,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 12vh;
+  height: 11.5vh;
   text-align: center;
   font-family: "Jacques";
 font-size: 50px;
@@ -215,6 +215,9 @@ div[class*=box] {
 /*fim da header e fontes*/
 
 
+.ideias{
+  margin-top: -5%;
+}
 
 .nssobjetivos1 {
   font-family: "minimal";
@@ -228,6 +231,7 @@ div[class*=box] {
   font-family: "minimal";
   font-size: 80px;
   margin-left: 1000px;
+  margin-top: -10px;
  
   text-decoration: none;
 }
@@ -255,7 +259,7 @@ div[class*=box] {
 .imgobj {
   border-radius: 10px;
   float: right;
-  margin-top: -33%;
+  margin-top: -34%;
   margin-right: 6%;
   width: 850px;
   height: 550px;
@@ -264,7 +268,7 @@ div[class*=box] {
 .imgobj2 {
   border-radius: 10px;
   float: left;
-  margin-top: -80%;
+  margin-top: -82%;
   margin-left: -143%;
   width: 750px;
   height: 550px;
@@ -347,4 +351,23 @@ div[class*=box] {
   -o-transition: 0.4s;
   line-height: 40px;
   width: 0px;
+}
+
+/*rodapé*/
+.rodape{
+  background-color: #0a0909;
+  height: 250px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.ifc {
+  display: flex;
+  align-items: center;
+}
+
+.ifc img {
+  max-height: 100%; 
+  margin-left: 120px;
 }
