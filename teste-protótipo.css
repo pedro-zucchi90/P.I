@@ -19,7 +19,7 @@ header {
 .logo {
   width: 242px;
   height: 128px;
-  margin-left: 45px;
+  margin-left: 105px;
 }
 
 .btn {
@@ -34,7 +34,7 @@ header {
   background-color: #F1F1F1;
   width: 100%;
   height: 20px;
-  
+
 }
 
 #pesquisa {
@@ -46,7 +46,8 @@ header {
   margin-right: 20px;
   text-align: center;
 }
-.pagini{
+
+.pagini {
   color: #fff;
   display: flex;
   justify-content: center;
@@ -54,8 +55,9 @@ header {
   height: 11.5vh;
   text-align: center;
   font-family: "Jacques";
-font-size: 50px;
+  font-size: 50px;
 }
+
 @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
 
 div[class*=box] {
@@ -83,14 +85,14 @@ div[class*=box] {
   background-color: #0a0909;
   color: #ffffff;
   transition: all 0.3s;
-  font-size: 23px;
+  font-size: 23.5px;
   margin-left: 50px;
   margin-bottom: 40px;
 }
 
 .btn-one span {
   transition: all 0.3s;
-  align-items: center;
+
 }
 
 .btn-one::before {
@@ -212,10 +214,11 @@ div[class*=box] {
   font-family: "jacques";
   src: url(JacquesFrancois-Regular.ttf);
 }
+
 /*fim da header e fontes*/
 
 
-.ideias{
+.ideias {
   margin-top: -5%;
 }
 
@@ -231,8 +234,6 @@ div[class*=box] {
   font-family: "minimal";
   font-size: 80px;
   margin-left: 1000px;
-  margin-top: -10px;
- 
   text-decoration: none;
 }
 
@@ -240,6 +241,7 @@ div[class*=box] {
   text-decoration: none;
   border-bottom: 3px solid black;
 }
+
 .textoobj1 {
   margin-top: 50px;
   margin-left: 108px;
@@ -289,6 +291,10 @@ div[class*=box] {
 .textoobj2 p {
   width: 625.284px;
   height: 480px;
+}
+
+.ideias {
+  margin-top: -5%;
 }
 
 .search-box {
@@ -354,20 +360,71 @@ div[class*=box] {
 }
 
 /*rodapé*/
-.rodape{
+.rodape {
   background-color: #0a0909;
   height: 250px;
   display: flex;
-  justify-content: left;
+  font-weight: 300;
+  letter-spacing: 1px;
   align-items: center;
+  text-align: center;
 }
 
 .ifc {
   display: flex;
-  align-items: center;
+  align-items: left;
 }
 
 .ifc img {
-  max-height: 100%; 
-  margin-left: 120px;
+  max-height: 100%;
+  margin-left: -200px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  margin-top: 20px; 
+}
+
+.social-icons i {
+  font-size: 40px;
+  margin: 10px; 
+  cursor: pointer;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none; /* Remova a decoração de texto, incluindo a linha de baixo */
+  display: flex;
+  align-items: center; /* Alinha o ícone e o texto verticalmente */
+}
+
+.social-icons a i {
+  margin-right: 10px; /* Adicione espaço entre o ícone e o texto */
+}
+
+.contacts {
+  color: #fff;
+  margin-left: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Alinha verticalmente o conteúdo */
+}
+
+footer.rodape {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.col-3-contacts h2{
+  font-family: "josefin";
+  color: #fff;
+}
+
+.col-3-contacts a{
+  margin: 10px;
 }
