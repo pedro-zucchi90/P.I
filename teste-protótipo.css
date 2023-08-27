@@ -228,6 +228,7 @@ div[class*=box] {
   text-decoration: none;
   border-bottom: 3px solid black;
 }
+
 .textoobj1 {
   margin-top: 50px;
   margin-left: 108px;
@@ -238,32 +239,32 @@ div[class*=box] {
 }
 
 .textoobj1 p {
-  width: 625px;
+  width: 950px;
   height: 480px;
 }
 
 .imgobj {
   border-radius: 10px;
   float: right;
-  margin-top: -33%;
-  margin-right: 30%;
-  width: 470px;
-  height: 814px;
+  margin-top: -32%;
+  margin-right: 3%;
+  width: 800px;
+  height: 500px;
 }
 
 .imgobj2 {
   border-radius: 10px;
   float: left;
-  margin-top: -140%;
-  margin-left: -143%;
-  width: 532px;
-  height: 709px;
+  margin-top: -61%;
+  margin-left: -105%;
+  width: 900px;
+  height: 600px;
 }
 
 .textoobj2 {
   text-align: center;
-  margin-top: 40px;
-  margin-left: 1000px;
+  margin-top: -150px;
+  margin-left: 1055px;
   font-family: "josefin";
   color: #000;
   text-align: justify;
@@ -273,7 +274,7 @@ div[class*=box] {
 }
 
 .textoobj2 p {
-  width: 625.284px;
+  width: 900px;
   height: 480px;
 }
 
@@ -341,7 +342,7 @@ div[class*=box] {
 
 .divgold {
   border-top: 20px solid goldenrod;
-  margin-top: 500px;
+  margin-top: 200px;
 }
 
 .divpreta {
@@ -355,21 +356,203 @@ div[class*=box] {
   color: #000;
   text-align: justify;
   font-size: 40px;
-  width: 30%;
+  width: 950px;
 }
 
 .imgobj3 {
     border-radius: 10px;
     float: left;
-    margin-top: -113%;
-    margin-left: 750px;
-    width: 758px;
+    margin-top: -500px;
+    margin-left: 1050px;
+    width: 757.498px;
     height: 481px;
+    flex-shrink: 0;
+}
+
+.linhap {
+  border-top: 4px solid black;
+  margin-left: 1160px;
+  margin-top: 20px;
+  width: 758px;
+}
+
+.imgobj4 {
+  border-radius: 10px;
+  float: left;
+  margin-left: 1050px;
+  margin-top: 60px;
+  width: 757.498px;
+  height: 665px;
+  flex-shrink: 0;
+  margin-bottom: 300px;
+}
+
+.divgold1 {
+  border-top: 20px solid goldenrod;
+  margin-top: 800px;
+}
+
+.divpreta1 {
+  border-top: 50px solid black;
+}
+
+.imgobj5 {
+  border-radius: 10px;
+  float: left;
+  margin-top: -400px;
+  margin-bottom: 100px;
+  margin-left: 1100px;
+  width: 579px;
+  height: 727px;
+  flex-shrink: 0;
+}
+
+.textoobj5 {
+  margin-top: 50px;
+  margin-left: 108px;
+  width: 50%;
+  font-family: "josefin";
+  color: #000;
+  text-align: justify;
+  font-size: 40px;
+}
+
+.imgobj6 {
+  border-radius: 10px;
+  float: left;
+  margin-top: -50px;
+  margin-bottom: 100px;
+  margin-left: 110px;
+  width: 595px;
+  height: 688px;
+  flex-shrink: 0;
+}
+
+.textoobj6 {
+  margin-top: 50px;
+  padding-left: 100px;
+  margin-left: 690px;
+  width: 50%;
+  font-family: "josefin";
+  color: #000;
+  text-align: justify;
+  font-size: 40px;
+}
+
+.divgold2 {
+  border-top: 20px solid goldenrod;
+  margin-top: 500px;
 }
 
 .divpreta2 {
+  border-top: 50px solid black;
+}
+
+.textoobj7 {
+  margin-top: 50px;
+  padding-left: 100px;
+  margin-left: 5px;
+  width: 90%;
+  font-family: "josefin";
+  color: #000;
+  text-align: justify;
+  font-size: 40px;
+}
+
+.linhap1 {
   border-top: 4px solid black;
-  margin-left: 860px;
-  margin-top: -150px;
-  width: 758px;
+  margin-left: 100px;
+  margin-top: 25px;
+  width: 1700px;
+}
+
+.imgobj7 {
+  border-radius: 10px;
+  float: right;
+  margin-top: 100px;
+  margin-right: 500px;
+  width: 915px;
+  height: 600px;
+  margin-bottom: 100px;
+}
+
+.textoobj8 {
+  margin-top: 20px;
+  padding-left: 100px;
+  margin-left: -100px;
+  width: 90%;
+  font-family: "josefin";
+  color: #000;
+  text-align: justify;
+  font-size: 40px;
+}
+
+.rodape {
+  background-color: #0a0909;
+  height: 250px;
+  width: 100%;
+  display: flex;
+  font-weight: 300;
+  letter-spacing: 1px;
+  align-items: center;
+  text-align: center;
+}
+
+.ifc {
+  display: flex;
+  align-items: left;
+}
+
+.ifc img {
+  max-height: 100%;
+  margin-left: -200px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  margin-top: 20px; 
+}
+
+.social-icons i {
+  font-size: 40px;
+  margin: 10px; 
+  cursor: pointer;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none; /* Remova a decoração de texto, incluindo a linha de baixo */
+  display: flex;
+  align-items: center; /* Alinha o ícone e o texto verticalmente */
+}
+
+.social-icons a i {
+  margin-right: 10px; /* Adicione espaço entre o ícone e o texto */
+}
+
+.contacts {
+  color: #fff;
+  margin-left: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Alinha verticalmente o conteúdo */
+}
+
+footer.rodape {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.col-3-contacts h2{
+  font-family: "josefin";
+  color: #fff;
+}
+
+.col-3-contacts a{
+  margin: 10px;
 }
