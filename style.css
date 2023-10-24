@@ -185,6 +185,10 @@ div[class*=box] {
     border-radius: 10px;
 }
 
+.line {
+  margin-left: 160px; 
+}
+
 .sigma {
   margin-top: 54px;
   margin-left: 160px; 
@@ -193,7 +197,7 @@ div[class*=box] {
   border-radius: 10px;
 }
 
-.abcdefg {
+.agnt {
   margin-top: 54px;
   margin-left: 185px; 
   width: 1000px;
@@ -204,6 +208,7 @@ div[class*=box] {
   padding-left: 12.5vw;
   font-size: 20px;
   padding-top: 1VW;
+  
 }
 .bday{
   padding-left: 17VW;
