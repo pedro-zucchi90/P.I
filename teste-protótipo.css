@@ -247,17 +247,17 @@ div[class*=box] {
   border-radius: 10px;
   float: right;
   margin-top: -32%;
-  margin-right: 3%;
-  width: 800px;
-  height: 500px;
+  margin-right: 15%;
+  width: 400px;
+  height: 550px;
 }
 
 .imgobj2 {
   border-radius: 10px;
   float: left;
   margin-top: -61%;
-  margin-left: -105%;
-  width: 900px;
+  margin-left: -85%;
+  width: 450px;
   height: 600px;
 }
 
@@ -402,8 +402,8 @@ div[class*=box] {
   margin-top: -400px;
   margin-bottom: 100px;
   margin-left: 1100px;
-  width: 579px;
-  height: 727px;
+  width: 679px;
+  height: 527px;
   flex-shrink: 0;
 }
 
@@ -423,15 +423,15 @@ div[class*=box] {
   margin-top: -50px;
   margin-bottom: 100px;
   margin-left: 110px;
-  width: 595px;
-  height: 688px;
+  width: 695px;
+  height: 588px;
   flex-shrink: 0;
 }
 
 .textoobj6 {
   margin-top: 50px;
   padding-left: 100px;
-  margin-left: 690px;
+  margin-left: 790px;
   width: 50%;
   font-family: "josefin";
   color: #000;
